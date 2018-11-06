@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a775b4c0-5c31-4ae9-811a-1e4ad3c929af" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/dictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/locators.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/Exercise1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,33 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="dictionary.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/dictionary.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="30">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exercise4Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/Exercise4Test.java">
+      <file leaf-file-name="Exercise1Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/Exercise1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="110" column="102" selection-start-line="110" selection-start-column="102" selection-end-line="110" selection-end-column="102" />
+            <state relative-caret-position="275">
+              <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#isPalindrome#0;class#Exercises4#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -71,6 +65,9 @@
         <option value="$PROJECT_DIR$/src/test/java/test/Exercise4.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/Exercise4Test.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/config/TestConfig.java" />
+        <option value="$PROJECT_DIR$/src/resources/dictionary.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/test/Exercise1Test.java" />
       </list>
     </option>
   </component>
@@ -81,8 +78,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="381" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="143" />
     <option name="y" value="23" />
     <option name="width" value="1606" />
     <option name="height" value="954" />
@@ -104,12 +101,6 @@
               <item name="qa" type="b2602c69:ProjectViewProjectNode" />
               <item name="qa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa" type="b2602c69:ProjectViewProjectNode" />
@@ -143,6 +134,11 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -155,9 +151,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Exercise4Test.testPalindromeWordsTest">
+  <component name="RunManager" selected="JUnit.Exercise1Test.testDoesFileExistTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Exercise1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Exercise1Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Exercise1Test.testDoesFileExistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Exercise1Test" />
+      <option name="METHOD_NAME" value="testDoesFileExistTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Exercise1Test.testPrintDictionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Exercise1Test" />
+      <option name="METHOD_NAME" value="testPrintDictionaryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="Exercise4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa" />
@@ -173,23 +238,6 @@
       <option name="MAIN_CLASS_NAME" value="test.Exercise4Test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Exercise4Test.testPalindromeWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qa" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Exercise4Test" />
-      <option name="METHOD_NAME" value="testPalindromeWords" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -261,15 +309,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Exercise4Test.testPalindromeWords" />
       <item itemvalue="JUnit.Exercise4Test" />
       <item itemvalue="JUnit.Exercise4Test.testPalindromeWordsTest" />
+      <item itemvalue="JUnit.Exercise1Test.testDoesFileExistTest" />
+      <item itemvalue="JUnit.Exercise1Test" />
+      <item itemvalue="JUnit.Exercise1Test.testPrintDictionaryTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Exercise1Test.testDoesFileExistTest" />
+        <item itemvalue="JUnit.Exercise1Test.testPrintDictionaryTest" />
+        <item itemvalue="JUnit.Exercise1Test" />
         <item itemvalue="JUnit.Exercise4Test.testPalindromeWordsTest" />
         <item itemvalue="JUnit.Exercise4Test" />
-        <item itemvalue="JUnit.Exercise4Test.testPalindromeWords" />
       </list>
     </recent_temporary>
   </component>
@@ -287,23 +339,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Exercise4_testPalindromeWords - 2018.11.06 at 13h 14m 33s.xml">
-      <configuration name="Exercise4.testPalindromeWords" configurationId="JUnit" />
+    <history-entry file="Exercise1Test_testPrintDictionaryTest - 2018.11.06 at 14h 31m 47s.xml">
+      <configuration name="Exercise1Test.testPrintDictionaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercise4_testPalindromeWords - 2018.11.06 at 13h 21m 38s.xml">
-      <configuration name="Exercise4.testPalindromeWords" configurationId="JUnit" />
+    <history-entry file="Exercise1Test_testDoesFileExistTest - 2018.11.06 at 14h 32m 00s.xml">
+      <configuration name="Exercise1Test.testDoesFileExistTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercise4Test - 2018.11.06 at 13h 27m 06s.xml">
-      <configuration name="Exercise4Test" configurationId="JUnit" />
+    <history-entry file="Exercise1Test_testPrintDictionaryTest - 2018.11.06 at 14h 32m 05s.xml">
+      <configuration name="Exercise1Test.testPrintDictionaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercise4Test_testPalindromeWordsTest - 2018.11.06 at 13h 31m 25s.xml">
-      <configuration name="Exercise4Test.testPalindromeWordsTest" configurationId="JUnit" />
+    <history-entry file="Exercise1Test_testDoesFileExistTest - 2018.11.06 at 14h 32m 20s.xml">
+      <configuration name="Exercise1Test.testDoesFileExistTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercise4Test_testPalindromeWordsTest - 2018.11.06 at 13h 32m 04s.xml">
-      <configuration name="Exercise4Test.testPalindromeWordsTest" configurationId="JUnit" />
+    <history-entry file="Exercise1Test_testPrintDictionaryTest - 2018.11.06 at 14h 32m 35s.xml">
+      <configuration name="Exercise1Test.testPrintDictionaryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercise4Test_testPalindromeWordsTest - 2018.11.06 at 13h 32m 29s.xml">
-      <configuration name="Exercise4Test.testPalindromeWordsTest" configurationId="JUnit" />
+    <history-entry file="Exercise1Test_testPrintDictionaryTest - 2018.11.06 at 14h 32m 52s.xml">
+      <configuration name="Exercise1Test.testPrintDictionaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Exercise1Test_testPrintDictionaryTest - 2018.11.06 at 14h 33m 02s.xml">
+      <configuration name="Exercise1Test.testPrintDictionaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Exercise1Test_testPrintDictionaryTest - 2018.11.06 at 14h 33m 44s.xml">
+      <configuration name="Exercise1Test.testPrintDictionaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Exercise1Test_testPrintDictionaryTest - 2018.11.06 at 14h 36m 24s.xml">
+      <configuration name="Exercise1Test.testPrintDictionaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Exercise1Test_testPrintDictionaryTest - 2018.11.06 at 14h 36m 40s.xml">
+      <configuration name="Exercise1Test.testPrintDictionaryTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -316,7 +380,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="381" y="23" width="1606" height="954" extended-state="0" />
+    <frame x="143" y="23" width="1606" height="954" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -325,11 +389,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44964027" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44964027" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297362" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -348,7 +412,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -369,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/exercises/Exercises4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -386,10 +443,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/locators.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" column="88" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/Exercise4Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="110" column="102" selection-start-line="110" selection-start-column="102" selection-end-line="110" selection-end-column="102" />
+        <state relative-caret-position="-172">
+          <caret line="38" selection-start-line="38" selection-end-line="38" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#isPalindrome#0;class#Exercises4#0" />
@@ -397,10 +474,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="270">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/dictionary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/Exercise1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
