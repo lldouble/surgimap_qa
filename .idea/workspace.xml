@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a775b4c0-5c31-4ae9-811a-1e4ad3c929af" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CreateAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/Exercise2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/locators.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/locators.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,36 +26,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dictionary.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/dictionary.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Exercise1Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/Exercise1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="-23">
+              <caret line="82" selection-start-line="82" selection-end-line="82" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#doesFileExist#0;class#Exercise1Test#0" />
                 <element signature="method#printDictionary#0;class#Exercise1Test#0" />
-                <element signature="method#testDoesFileExistTest#0;class#Exercise1Test#0" />
                 <element signature="method#testPrintDictionaryTest#0;class#Exercise1Test#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-98">
+              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="locators.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/locators.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/TestConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exercise2Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/Exercise2Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+            <state relative-caret-position="390">
+              <caret line="26" column="110" selection-start-line="26" selection-start-column="110" selection-end-line="26" selection-end-column="110" />
             </state>
           </provider>
         </entry>
@@ -68,16 +126,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/exercises/Exercises4.java" />
         <option value="$PROJECT_DIR$/src/test/java/exercises.java" />
         <option value="$PROJECT_DIR$/src/test/java/Exercise4.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/Exercise4.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/Exercise4Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/resources/dictionary.txt" />
         <option value="$PROJECT_DIR$/src/test/java/test/Exercise1Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/config/TestConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/resources/locators.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/test/Exercise2Test.java" />
       </list>
     </option>
   </component>
@@ -89,7 +151,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
+    <option name="x" value="-33" />
     <option name="y" value="23" />
     <option name="width" value="1606" />
     <option name="height" value="954" />
@@ -124,6 +186,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qa" type="b2602c69:ProjectViewProjectNode" />
@@ -177,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Exercise1Test.testDoesFileExistTest">
+  <component name="RunManager" selected="JUnit.Exercise2Test.testRegisterUserAndGetActivationEmail">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -250,7 +334,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Exercise4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Exercise2Test.testRegisterUserAndGetActivationEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa" />
       <extension name="coverage">
         <pattern>
@@ -261,9 +345,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Exercise4Test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="test.Exercise2Test" />
+      <option name="METHOD_NAME" value="testRegisterUserAndGetActivationEmail" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -335,19 +419,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Exercise4Test" />
       <item itemvalue="JUnit.Exercise4Test.testPalindromeWordsTest" />
       <item itemvalue="JUnit.Exercise1Test.testDoesFileExistTest" />
       <item itemvalue="JUnit.Exercise1Test" />
       <item itemvalue="JUnit.Exercise1Test.testPrintDictionaryTest" />
+      <item itemvalue="JUnit.Exercise2Test.testRegisterUserAndGetActivationEmail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Exercise2Test.testRegisterUserAndGetActivationEmail" />
         <item itemvalue="JUnit.Exercise1Test.testDoesFileExistTest" />
         <item itemvalue="JUnit.Exercise1Test.testPrintDictionaryTest" />
         <item itemvalue="JUnit.Exercise1Test" />
         <item itemvalue="JUnit.Exercise4Test.testPalindromeWordsTest" />
-        <item itemvalue="JUnit.Exercise4Test" />
       </list>
     </recent_temporary>
   </component>
@@ -365,9 +449,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Exercise1Test_testPrintDictionaryTest - 2018.11.06 at 14h 32m 35s.xml">
-      <configuration name="Exercise1Test.testPrintDictionaryTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Exercise1Test_testPrintDictionaryTest - 2018.11.06 at 14h 32m 52s.xml">
       <configuration name="Exercise1Test.testPrintDictionaryTest" configurationId="JUnit" />
     </history-entry>
@@ -395,6 +476,9 @@
     <history-entry file="Exercise1Test_testDoesFileExistTest - 2018.11.06 at 14h 38m 05s.xml">
       <configuration name="Exercise1Test.testDoesFileExistTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Exercise2Test_testRegisterUserAndGetActivationEmail - 2018.11.06 at 15h 15m 57s.xml">
+      <configuration name="Exercise2Test.testRegisterUserAndGetActivationEmail" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -406,7 +490,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="23" width="1606" height="954" extended-state="0" />
+    <frame x="-33" y="23" width="1606" height="954" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -438,7 +522,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/Exercise2Test.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -469,19 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/locators.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/TestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="17" column="88" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/Exercise4Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-172">
@@ -495,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="392">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -507,24 +586,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="110" selection-start-line="26" selection-start-column="110" selection-end-line="26" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CreateAccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/Exercise1Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="-23">
+          <caret line="82" selection-start-line="82" selection-end-line="82" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#doesFileExist#0;class#Exercise1Test#0" />
             <element signature="method#printDictionary#0;class#Exercise1Test#0" />
-            <element signature="method#testDoesFileExistTest#0;class#Exercise1Test#0" />
             <element signature="method#testPrintDictionaryTest#0;class#Exercise1Test#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/TestConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+        <state relative-caret-position="482">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/locators.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/Exercise2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

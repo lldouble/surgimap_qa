@@ -1,6 +1,9 @@
 package config;
 
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -28,5 +31,11 @@ public class TestConfig {
     //get a property by its key
     public String getData(String propId){
         return locators.getProperty(propId);
+    }
+
+    //return a chrome driver
+    public static WebDriver getChromeDriver() {
+        WebDriver driver = new ChromeDriver();
+        return driver;
     }
 }
