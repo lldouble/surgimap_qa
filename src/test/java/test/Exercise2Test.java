@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import pages.CreateAccountPage;
 import pages.HomePage;
 import pages.LoginPage;
+import utilities.GmailInbox;
 import utilities.Utilities;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -66,7 +67,7 @@ public class Exercise2Test {
         String email = Utilities.generateRandomEmail();
         System.out.println("7a. Generate a random email: " + email);
 
-        String password = Utilities.generateRandomPassword(8);
+        String password = Utilities.generateRandomPassword(9);
         System.out.println("7b. Generate a random password: " + password);
 
         System.out.println("7c. Fill the form and submit it");
@@ -84,6 +85,8 @@ public class Exercise2Test {
 
 
         System.out.println("8. Verify that Activation email is appeared in mailbox you entered in Step 7");
+        GmailInbox mailbox = new GmailInbox(config);
+
 
         //4. Close driver and end;
         System.out.println("9. Closing driver and ending.");

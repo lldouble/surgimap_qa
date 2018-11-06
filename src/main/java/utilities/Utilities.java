@@ -20,7 +20,7 @@ public class Utilities {
     public static String generateRandomPassword(int length) {
         String randomPassword = generateRandomString(length);
 
-        //add uppercase
+        //add uppercase and lowercase
         randomPassword = randomPassword.substring(0, 1).toUpperCase() + randomPassword.substring(1, randomPassword.length()).toLowerCase();
 
         //add symbol - not needed
@@ -34,7 +34,8 @@ public class Utilities {
 
     //generate a random String, given an input length
     public static String generateRandomString(int len) {
-        final String AB = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+        // final String AB = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+        final String AB = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         SecureRandom rnd = new SecureRandom();
         StringBuilder sb = new StringBuilder(len);
         for (int i = 0; i < len; i++)
