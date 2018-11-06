@@ -24,5 +24,5 @@ The package /src/main/java/utilities contains some utility methods (e.g. access 
 
 5. Simplifications
 Test Logs running on System.out for a matter of time, instead than proper logging.
-Test meant to run in desktop mode (just for a matter of time, I could have chosen mobile with the same effort)
+Test Automation only tested to run in desktop mode (just for a matter of time, I could have chosen mobile with the same effort)
 Driver lifecycle handling simplified (open, close, ...).
