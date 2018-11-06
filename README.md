@@ -26,3 +26,6 @@ The package /src/main/java/utilities contains some utility methods (e.g. access 
 Test Logs running on System.out for a matter of time, instead than proper logging.
 Test Automation only tested to run in desktop mode (just for a matter of time, I could have chosen mobile with the same effort)
 Driver lifecycle handling simplified (open, close, ...).
+
+6. Important note:
+Make sure to use latest Chrome Driver (at least 2.43.0) and Chrome (at least 70.0)

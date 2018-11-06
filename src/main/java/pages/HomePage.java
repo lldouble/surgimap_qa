@@ -30,6 +30,7 @@ public class HomePage {
     public HomePage(WebDriver driver, TestConfig config){
         //load homepage;
         driver.get(config.getData("homepage.url"));
+
         //make sure to be in the homepage
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.urlContains("www.surgimap.com"));
