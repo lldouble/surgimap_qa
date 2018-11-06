@@ -8,12 +8,13 @@ a) Java 1.8.x
 b) Maven (configured properly with Java)
 c) Internet connection
 d) Google Chrome browser
-e) Selenium chrome driver up and running (download here: http://chromedriver.chromium.org/downloads)
+e) Selenium Chrome Driver (download here: http://chromedriver.chromium.org/downloads and unzip and store somewhere safe the executable)
+d) *IMPORTANT:* please provide the selenium chrome driver full path (from step 7) into the file "locators.properties", at the property "selenium.chrome.driver.executable.path" (see the current property value for an example)
 
 3. To run the test cases:
 a) Open a Command Line
 b) Go where this project was checked out;
-c) Run "maven clean verify" > The screen command line output will provide the test logs and information
+c) Run "mvn clean verify" > The screen command line output will provide the test logs and information
 
 4. Some information:
 The test cases for the exercises are in the package: /src/test/java/test/

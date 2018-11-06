@@ -31,7 +31,7 @@ public class Exercise2Test {
         //0.initiate config and driver;
         System.out.println("0. Initiate config and driver");
         TestConfig config = new TestConfig();
-        WebDriver driver = TestConfig.getChromeDriver();
+        WebDriver driver = config.getChromeDriver();
 
         //1. Navigate to random https://www.surgimap.com/
         System.out.println("1. Navigate to random https://www.surgimap.com/");

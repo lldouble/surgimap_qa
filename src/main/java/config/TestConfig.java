@@ -34,8 +34,8 @@ public class TestConfig {
     }
 
     //return a chrome driver
-    public static WebDriver getChromeDriver() {
-        System.setProperty("webdriver.chrome.driver","/Users/lannil/Downloads/chromedriver243");
+    public WebDriver getChromeDriver() {
+        System.setProperty("webdriver.chrome.driver",this.getData("selenium.chrome.driver.executable.path"));
         WebDriver driver = new ChromeDriver();
         return driver;
     }
