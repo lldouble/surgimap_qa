@@ -74,6 +74,7 @@ public class Exercise2Test {
         createAccountPage.registerUser(email, password);
 
         System.out.println("7d. Verify popup appeared and with right content");
+        //some basic quality check on the popup message
         assertThat(createAccountPage.isPopupDialogShown()).isTrue().withFailMessage("Expected popup dialog message to confirm registration successul did not appear!");
         String expWord1 = "thank";
         String expWord2 = "register";
@@ -83,12 +84,15 @@ public class Exercise2Test {
         assertThat(actPopupText.toLowerCase().contains(expWord2.toLowerCase())).isTrue().withFailMessage("Expected popup dialog message does not seem to contain the expected word: " + expWord2);
         assertThat(actPopupText.toLowerCase().contains(expWord3.toLowerCase())).isTrue().withFailMessage("Expected popup dialog message does not seem to contain the expected word: " + expWord3);
 
-
+        //8. Verify that Activation email is appeared in mailbox you entered in Step 7
         System.out.println("8. Verify that Activation email is appeared in mailbox you entered in Step 7");
         GmailInbox mailbox = new GmailInbox(config);
+        //As commented in my email, I skip the implementation of this final step as I do not have a disposable email service with an API to generate mailboxes and access the emails.
+        //I added I code I wrote to access a Gmail inbox, anyway this would only work 1 time as this is a registration process that should always use different emails
+        //As I am doing here (generating random emails addresses), so with a fixed email, the test case would not be repeatable (trying to register 2x+ to the same email).
+        //Having the disposable email API (unfortunately I could only find not free ones), should make the implementation of this test step relatively easy.
 
-
-        //4. Close driver and end;
+        //9. Close driver and end;
         System.out.println("9. Closing driver and ending.");
         driver.close();
 
