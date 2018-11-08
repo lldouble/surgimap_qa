@@ -1,6 +1,6 @@
-utilities/GmailInbox.class
 pages/LoginPage.class
 utilities/Utilities.class
 config/TestConfig.class
 pages/HomePage.class
+utilities/MailSlurp.class
 pages/CreateAccountPage.class

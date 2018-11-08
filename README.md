@@ -29,4 +29,9 @@ Test Automation only tested to run in desktop mode (just for a matter of time, I
 Driver lifecycle handling simplified (open, close, ...).
 
 6. Important note:
-Make sure to use latest Chrome Driver (at least 2.43.0) and Chrome (at least 70.0)
+Make sure to use latest Chrome Driver (at least 2.43.0) and Chrome (at least 70.0).
+The test suite is using MailSlurp as an external (Rest) API to generate mailboxes and check received emails into them.
+Since this step is using an external service that could be unavailable at any time and it is not in our control, this
+step is executed in a "best effort way", so that if it fails due to the service not avaiable at the moment of the test
+execution, it will not make the test case fail but just provide a WARNING in the logs to invite the tester to complete
+this step (email verification) manually.
